@@ -1,14 +1,5 @@
-/**
-* Template Name: eStartup - v4.0.1
-* Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 @charset "UTF-8";
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background-color: #fff;
   color: #333;
@@ -159,7 +150,7 @@ span {
 }
 
 #header #logo h1 a span {
-  color: #71c55d;
+  color: #109CF1;
 }
 
 #header #logo img {
@@ -215,7 +206,7 @@ span {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #71c55d;
+  color: #109CF1;
 }
 
 .navbar .dropdown ul {
@@ -248,7 +239,7 @@ span {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #71c55d;
+  color: #109CF1;
 }
 
 .navbar .dropdown:hover > ul {
@@ -343,7 +334,7 @@ span {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #71c55d;
+  color: #109CF1;
 }
 
 .navbar-mobile .getstarted {
@@ -375,7 +366,7 @@ span {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #71c55d;
+  color: #109CF1;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
