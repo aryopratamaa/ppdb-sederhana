@@ -23,7 +23,7 @@
       <div class="container d-flex align-items-center justify-content-between">
         <div id="logo">
           <h1>
-            <a href="index.html"><span>SMKN1</span> AP</a>
+            <a href="index.php"><span>SMKN1</span> AP</a>
           </h1>
         </div>
 
@@ -220,114 +220,74 @@
               <div class="row">
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
                   <div class="guru-block bottom">
-                    <img src="assets/img/guru/1.jpg" class="img-responsive" alt="img">
+                    <img src="assets/img/guru/1.png" class="img-responsive" alt="img">
                     <div class="guru-content">
-                      <ul class="list-unstyled">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                      </ul>
-                      <span>manager</span>
-                      <h4>Kimberly Tran</h4>
+                      <span>Wakasek Kesiswaan, Fisika</span>
+                      <h4>Syukriah, S.Pd</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
                   <div class="guru-block bottom">
-                    <img src="assets/img/guru/2.jpg" class="img-responsive" alt="img">
+                    <img src="assets/img/guru/2.png" class="img-responsive" alt="img">
                     <div class="guru-content">
-                      <ul class="list-unstyled">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                      </ul>
-                      <span>manager</span>
-                      <h4>Kimberly Tran</h4>
+                      <span>Wakasek Sarana dan Prasarana, Bimbingan Konseling</span>
+                      <h4>Syarifah Mahani, S.Psi</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
                   <div class="guru-block bottom">
-                    <img src="assets/img/guru/3.jpg" class="img-responsive" alt="img">
+                    <img src="assets/img/guru/3.png" class="img-responsive" alt="img">
                     <div class="guru-content">
-                      <ul class="list-unstyled">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                      </ul>
-                      <span>manager</span>
-                      <h4>Kimberly Tran</h4>
+                      <span>Bendahara, Wakasek Hubin, Produktif Otomotif</span>
+                      <h4>R. Ade Safari Pane, S.Pd</h4>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
                   <div class="guru-block bottom">
-                    <img src="assets/img/guru/4.jpg" class="img-responsive" alt="img">
+                    <img src="assets/img/guru/4.png" class="img-responsive" alt="img">
                     <div class="guru-content">
-                      <ul class="list-unstyled">
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                      </ul>
-                      <span>manager</span>
-                      <h4>Kimberly Tran</h4>
+                      <span>Kaprog Teknik Otomotif, Produktif Otomotif</span>
+                      <h4>Fakhri Nasri, S.Pd, M.Si</h4>
                     </div>
                   </div>
                 </div>
                 <p></p>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
                     <div class="guru-block bottom">
-                      <img src="assets/img/guru/4.jpg" class="img-responsive" alt="img">
+                      <img src="assets/img/guru/5.png" class="img-responsive" alt="img">
                       <div class="guru-content">
-                        <ul class="list-unstyled">
-                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                        <span>manager</span>
-                        <h4>Kimberly Tran</h4>
+                        <span>Kaprog Teknik Kimia, Produktif Kimia</span>
+                        <h4>Monika MM Tampubolon, S.Pd</h4>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
                     <div class="guru-block bottom">
-                      <img src="assets/img/guru/4.jpg" class="img-responsive" alt="img">
+                      <img src="assets/img/guru/6.png" class="img-responsive" alt="img">
                       <div class="guru-content">
-                        <ul class="list-unstyled">
-                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                        <span>manager</span>
-                        <h4>Kimberly Tran</h4>
+                        <span>Kaprog Teknik Komputer dan Informatika, Produktif TKJ</span>
+                        <h4>Sapta Andika, ST</h4>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
                     <div class="guru-block bottom">
-                      <img src="assets/img/guru/4.jpg" class="img-responsive" alt="img">
+                      <img src="assets/img/guru/7.png" class="img-responsive" alt="img">
                       <div class="guru-content">
-                        <ul class="list-unstyled">
-                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                        <span>manager</span>
-                        <h4>Kimberly Tran</h4>
+                        <span>Matematika</span>
+                        <h4>Agus Suyono, S.Pd</h4>
                       </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
                     <div class="guru-block bottom">
-                      <img src="assets/img/guru/4.jpg" class="img-responsive" alt="img">
+                      <img src="assets/img/guru/8.png" class="img-responsive" alt="img">
                       <div class="guru-content">
-                        <ul class="list-unstyled">
-                          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                        <span>manager</span>
-                        <h4>Kimberly Tran</h4>
+                        <span>Bahasa Inggris</span>
+                        <h4>Marianum, S.Pd</h4>
                       </div>
                     </div>
                 </div>
@@ -339,32 +299,10 @@
             <div class="container" data-aos="fade-up">
               <div class="section-title text-center">
                 <h2>Contact</h2>
-                <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <p class="separator">Tinggalkan pesan pada form berikut</p>
               </div>
               <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-3 col-md-4">
-                  <div class="info">
-                    <div>
-                      <i class="bi bi-geo-alt"></i>
-                      <p>A108 Adam Street<br>New York, NY 535022</p>
-                    </div>
-                    <div class="email">
-                      <i class="bi bi-envelope"></i>
-                      <p>info@example.com</p>
-                    </div>
-                    <div>
-                      <i class="bi bi-phone"></i>
-                      <p>+1 5589 55488 55s</p>
-                    </div>
-                  </div>
-                  <div class="social-links">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="col-lg-5 col-md-8">
+                <div class="col-auto col-md-6">
                   <div class="form">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                       <div class="form-group">
@@ -388,6 +326,22 @@
                     </form>
                   </div>
                 </div>
+                <div class="col-lg-3">
+                  <div class="info">
+                    <div>
+                      <i class="bi bi-geo-alt"></i>
+                      <p>Jln.SMK Dusun III Desa Sukaraja, Kec.Air Putih<br>Kab.Batu Bara, Sumatera Utara</p>
+                    </div>
+                    <div class="email">
+                      <i class="bi bi-envelope"></i>
+                      <p>admin@smknegeri1airputih.sch.id</p>
+                    </div>
+                    <div>
+                      <i class="bi bi-phone"></i>
+                      <p>+62 622 723 1599</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -398,76 +352,12 @@
     <footer class="footer">
         <div class="container">
           <div class="row">
-    
-            <div class="col-md-12 col-lg-4">
+              <div class="col-auto">
               <div class="footer-logo">
-    
-                <a class="navbar-brand" href="#">eStartup</a>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-    
+                <a class="navbar-brand" href="#">SMK Negeri 1 Air Putih</a>
+                <p>Puji syukur kami panjatkan ke hadirat Allah SWT Tuhan Yang Maha Esa, atas karunia dan hidayah-Nya, sehingga kita semua dapat membaktikan segala hal yang kita miliki untuk kemajuan dunia pendidikan. Apapun bentuk dan sumbangsih yang kita berikan, jika dilandasi niat yang tulus tanpa memandang imbalan apapun akan menghasilkan mahakarya yang agung untuk bekal kita dan generasi setelah kita. Pendidikan adalah harga mati untuk menjadi pondasi bangsa dan negara dalam menghadapi perkembangan zaman.</p>
               </div>
             </div>
-    
-            <div class="col-sm-6 col-md-3 col-lg-2">
-              <div class="list-menu">
-    
-                <h4>Abou Us</h4>
-    
-                <ul class="list-unstyled">
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Features item</a></li>
-                  <li><a href="#">Live streaming</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-    
-              </div>
-            </div>
-    
-            <div class="col-sm-6 col-md-3 col-lg-2">
-              <div class="list-menu">
-    
-                <h4>Abou Us</h4>
-    
-                <ul class="list-unstyled">
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Features item</a></li>
-                  <li><a href="#">Live streaming</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-    
-              </div>
-            </div>
-    
-            <div class="col-sm-6 col-md-3 col-lg-2">
-              <div class="list-menu">
-    
-                <h4>Support</h4>
-    
-                <ul class="list-unstyled">
-                  <li><a href="#">faq</a></li>
-                  <li><a href="#">Editor help</a></li>
-                  <li><a href="#">Contact us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-    
-              </div>
-            </div>
-    
-            <div class="col-sm-6 col-md-3 col-lg-2">
-              <div class="list-menu">
-    
-                <h4>Abou Us</h4>
-    
-                <ul class="list-unstyled">
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Features item</a></li>
-                  <li><a href="#">Live streaming</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-    
-              </div>
-            </div>
-    
           </div>
         </div>
     

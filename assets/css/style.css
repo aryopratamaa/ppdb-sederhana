@@ -1205,7 +1205,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #55b03f;
+  background: #109CF1;
   color: #fff;
 }
 
@@ -1233,7 +1233,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #109CF1;
   text-align: center;
   padding: 15px;
   font-weight: 600;
