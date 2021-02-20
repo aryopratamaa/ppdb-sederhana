@@ -654,10 +654,11 @@ section {
 --------------------------------*/
 #about-us img {
   max-width: 100%;
+  padding-top: 35px;
 }
 
 #about-us .about-content {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 #about-us .about-content h2 {
@@ -681,7 +682,7 @@ section {
 }
 
 #about-us .about-content ul li .fa {
-  padding-right: 20px;
+  padding-right: 50px;
 }
 
 /* Jurusan Section
@@ -692,29 +693,29 @@ section {
   width: 100%;
 }
 
-#jurusan .feature-block {
+#jurusan .jurusan-block {
   background: #fff none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
 }
 
-#jurusan .feature-block img {
+#jurusan .jurusan-block img {
   height: 60px;
   margin-bottom: 30px;
   width: 60px;
 }
 
-#jurusan .feature-block:hover {
+#jurusan .jurusan-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 
-#jurusan .feature-block h4 {
+#jurusan .jurusan-block h4 {
   margin-bottom: 20px;
 }
 
-#jurusan .feature-block p {
+#jurusan .jurusan-block p {
   margin-bottom: 0;
 }
 
