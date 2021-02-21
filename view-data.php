@@ -47,6 +47,8 @@ $stmt->execute();
                     <td><?php echo $row['date']; ?></td>
                     <td><?php echo $row['hp']; ?></td>
                     <td>
+                        <a href="details.php?id=<?php echo $row['id_pendaftaran']; ?>">Detail</a> |
+                        <a href="edit.php?id=<?php echo $row['id_pendaftaran']; ?>">Edit</a> |
                         <a href="proses.php?del=<?php echo $row['id_pendaftaran']; ?>">Delete</a>
                     </td>
                 </tr>

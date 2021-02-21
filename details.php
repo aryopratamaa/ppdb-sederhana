@@ -55,11 +55,11 @@ $row = $stmt->fetch();
     <section class="breadcrumbs">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-          <h2>UPDATE FORMULIR PENERIMAAN PESERTA DIDIK BARU TAHUN 2021</h2>
+          <h2>DATA FORMULIR PESERTA DIDIK BARU TAHUN 2021</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php?page=register">Pendaftaran</a></li>
-            <li>Edit Data</li>
+            <li>Data Peserta</li>
           </ol>
         </div>
       </div>
@@ -75,11 +75,7 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Jenis Pendaftaran <span class="asteriskField">*</span></label>
                 <div class="col-sm-9">
-                    <select name="jenis_pendaftaran" class="form-select">
-                        <option selected value="<?php echo $row['jenis_pendaftaran']; ?>">Pilih...</option>
-                        <option>Siswa Baru</option>
-                        <option>Pindahan</option>
-                    </select>
+                    <input type="text" class="form-control" name="asal_sekolah" value=<?php echo $row['jenis_pendaftaran']; ?>">    
                 </div>
             </div>
             <div class="row mb-3">
@@ -101,11 +97,7 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Jenis Kelamin <span class="asteriskField">*</span></label>
                 <div class="col-sm-9">
-                    <select class="form-select" type="text" name="jenis_kelamin">
-                        <option selected value="<?php echo $row['jenis_kelamin']; ?>">Pilih...</option>
-                        <option>Laki-laki</option>
-                        <option>Perempuan</option>
-                    </select>
+                    <input type="text" class="form-control" name="nama_lengkap" value="<?php echo $row['jenis_kelamin']; ?>">
                 </div>
             </div>
             <div class="row mb-3">
@@ -129,22 +121,13 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Tanggal Lahir <span class="asteriskField">*</span></label>
                 <div class="col-sm-9">
-                        <input class="form-control" name="date" type="date" value="<?php echo $row['date']; ?>"/>
+                    <input type="text" class="form-control" name="tempat_lahir" value="<?php echo $row['date']; ?>">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Agama <span class="asteriskField">*</span></label>
                 <div class="col-sm-9">
-                    <select name="agama" type="text" class="form-select">
-                        <option selected value="<?php echo $row['agama']; ?>">Pilih...</option>
-                        <option>Islam</option>
-                        <option>Kristen</option>
-                        <option>Katholik</option>
-                        <option>Hindu</option>
-                        <option>Budha</option>
-                        <option>Kong Hu Chu</option>
-                        <option>Lainnya</option>
-                    </select>
+                    <input type="text" class="form-control" name="tempat_lahir" value="<?php echo $row['agama']; ?>">
                 </div>
             </div>
             <div class="row mb-3">
@@ -158,13 +141,6 @@ $row = $stmt->fetch();
                 <div class="col-sm-9">
                     <input type="text" class="form-control" name="hp" value="<?php echo $row['hp']; ?>">
                 </div>
-            </div>
-            <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Photo Diri <span class="asteriskField">*</span></label>
-                <div class="col-sm-9">
-                    <input class="form-control" type="file" name="photo" value="<?php echo $row['photo']; ?>">
-                </div>
-            </div>
 
             <p>
                 <h3>Data Ayah Kandung</h3>
@@ -184,39 +160,13 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Pendidikan</label>
                 <div class="col-sm-9">
-                    <select name="pendidikan_ayah" class="form-select">
-                        <option selected value="<?php echo $row['pendidikan_ayah']; ?>">Pilih...</option>
-                        <option>D1</option>
-                        <option>D2</option>
-                        <option>D3</option>
-                        <option>D4/S1</option>
-                        <option>S2</option>
-                        <option>S3</option>
-                        <option>SD Sederajat</option>
-                        <option>SMP Sederajat</option>
-                        <option>SMA Sederajat</option>
-                        <option>Tidak sekolah</option>
-                    </select>
+                    <input name="pendidikan_ayah" type="text" class="form-control" value="<?php echo $row['pendidikan_ayah']; ?>">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Pekerjaan</label>
                 <div class="col-sm-9">
-                    <select name="pekerjaan_ayah" class="form-select">
-                        <option selected value="<?php echo $row['pekerjaan_ayah']; ?>">Pilih...</option>
-                        <option>Buruh</option>
-                        <option>Karyawan Swasta</option>
-                        <option>Nelayan</option>
-                        <option>Pedagang Besar</option>
-                        <option>Pedagang Kecil</option>
-                        <option>Pensiunan</option>
-                        <option>Petani</option>
-                        <option>Peternak</option>
-                        <option>PNS/TNI/POLRI</option>
-                        <option>Wiraswasta</option>
-                        <option>Wirausaha</option>
-                        <option>Tidak Bekerja</option>
-                    </select>
+                    <input name="pekerjaan_ayah" type="text" class="form-control" value="<?php echo $row['pekerjaan_ayah']; ?>">
                 </div>
             </div>
 
@@ -238,39 +188,13 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label  class="col-sm-3 col-form-label">Pendidikan</label>
                 <div class="col-sm-9">
-                    <select name="pendidikan_ibu" class="form-select">
-                        <option selected value="<?php echo $row['pendidikan_ibu']; ?>">Pilih...</option>
-                        <option>D1</option>
-                        <option>D2</option>
-                        <option>D3</option>
-                        <option>D4/S1</option>
-                        <option>S2</option>
-                        <option>S3</option>
-                        <option>SD Sederajat</option>
-                        <option>SMP Sederajat</option>
-                        <option>SMA Sederajat</option>
-                        <option>Tidak sekolah</option>
-                    </select>
+                    <input name="pendidikan_ibu" type="text" class="form-control" value="<?php echo $row['pendidikan_ibu']; ?>">  
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Pekerjaan</label>
                 <div class="col-sm-9">
-                    <select name="pekerjaan_ibu" class="form-select">
-                        <option selected value="<?php echo $row['pekerjaan_ibu']; ?>">Pilih...</option>
-                        <option>Buruh</option>
-                        <option>Karyawan Swasta</option>
-                        <option>Nelayan</option>
-                        <option>Pedagang Besar</option>
-                        <option>Pedagang Kecil</option>
-                        <option>Pensiunan</option>
-                        <option>Petani</option>
-                        <option>Peternak</option>
-                        <option>PNS/TNI/POLRI</option>
-                        <option>Wiraswasta</option>
-                        <option>Wirausaha</option>
-                        <option>Tidak Bekerja</option>
-                    </select>
+                    <input name="pekerjaan_ibu" type="text" class="form-control" value="<?php echo $row['pekerjaan_ibu']; ?>">
                 </div>
             </div>
 
@@ -292,58 +216,18 @@ $row = $stmt->fetch();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Pendidikan</label>
                 <div class="col-sm-9">
-                    <select name="pendidikan_wali" class="form-select">
-                        <option selected value="<?php echo $row['pendidikan_wali']; ?>">Pilih...</option>
-                        <option>D1</option>
-                        <option>D2</option>
-                        <option>D3</option>
-                        <option>D4/S1</option>
-                        <option>S2</option>
-                        <option>S3</option>
-                        <option>SD Sederajat</option>
-                        <option>SMP Sederajat</option>
-                        <option>SMA Sederajat</option>
-                        <option>Tidak sekolah</option>
-                    </select>
+                    <input name="pendidikan_wali" type="text" class="form-control" value="<?php echo $row['pendidikan_wali']; ?>"> 
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Pekerjaan</label>
                 <div class="col-sm-9">
-                    <select name="pekerjaan_wali" class="form-select">
-                        <option selected value="<?php echo $row['pekerjaan_wali']; ?>">Pilih...</option>
-                        <option>Buruh</option>
-                        <option>Karyawan Swasta</option>
-                        <option>Nelayan</option>
-                        <option>Pedagang Besar</option>
-                        <option>Pedagang Kecil</option>
-                        <option>Pensiunan</option>
-                        <option>Petani</option>
-                        <option>Peternak</option>
-                        <option>PNS/TNI/POLRI</option>
-                        <option>Wiraswasta</option>
-                        <option>Wirausaha</option>
-                        <option>Tidak Bekerja</option>
-                    </select>
+                    <input name="pekerjaan_wali" type="text" class="form-control" value="<?php echo $row['pekerjaan_wali']; ?>">
                 </div>
             </div>
 
-            <p>
-                <h3>Pernyataan dan Keamanan</h3>
-            </p>
-            <div class="row mb-3">
-                <label class="col-sm-3 col-form-label">Pernyataan <span class="asteriskField">*</span></label>
-                <div class="col-sm-9 form-check">
-                    <input class="form-check-input" type="checkbox" value="" name="pernyataan">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Saya menyatakan dengan sesungguhnya bahwa isian data dalam formulir ini adalah benar. Apabila ternyata data tersebut tidak benar / palsu, maka saya bersedia menerima sanksi berupa Pembatalan sebagai Calon Peserta Didik Sekolah SMK Negeri 1 Air Putih.
-                    </label>
-                  </div>
-            </div>
-
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <input type="submit" class="btn btn-primary" name="btn_update" value="update"></input>
-                <button type="reset" class="btn btn-secondary">Reset</button>
+                <a href="index.php?page=view-data" type="button" class="btn btn-success">Kembali</a>
             </div>
 
         </form>
