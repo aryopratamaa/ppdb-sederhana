@@ -25,7 +25,7 @@
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Jenis Pendaftaran <span class="asteriskField">*</span></label>
                 <div class="col-sm-9">
-                    <select name="jenis_pendaftaran" class="form-select">
+                    <select name="jenis_pendaftaran" class="form-select" id="">
                         <option selected>Pilih...</option>
                         <option>Siswa Baru</option>
                         <option>Pindahan</option>

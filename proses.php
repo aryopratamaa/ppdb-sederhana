@@ -29,7 +29,8 @@ if (isset($_POST['btn_simpan'])) {
     $pekerjaan_wali = $_POST['pekerjaan_wali'];
     $pernyataan = $_POST['pernyataan'];
 
-    $sql = "INSERT INTO formulir VALUES (NULL,
+    $sql = "INSERT INTO tb_formulir VALUES
+    (NULL,
     :jenis_pendaftaran,
     :asal_sekolah,
     :nama_lengkap,
@@ -58,35 +59,35 @@ if (isset($_POST['btn_simpan'])) {
 
     $stmt = $koneksi->prepare($sql);
 
-    $stmt->bindParam(":jenis_pendaftaran", $jenis_pendaftaran);
-    $stmt->bindParam(":asal_sekolah", $asal_sekolah);
-    $stmt->bindParam(":nama_lengkap", $nama_lengkap);
-    $stmt->bindParam(":jenis_kelamin", $jenis_kelamin);
-    $stmt->bindParam(":nik", $nik);
-    $stmt->bindParam(":nomor_kk", $nomor_kk);
-    $stmt->bindParam(":tempat_lahir", $tempat_lahir);
-    $stmt->bindParam(":date", $date);
-    $stmt->bindParam(":agama", $agama);
-    $stmt->bindParam(":alamat_jalan", $alamat_jalan);
-    $stmt->bindParam(":hp", $hp);
-    $stmt->bindParam(":photo", $photo);
-    $stmt->bindParam(":ayah", $ayah);
-    $stmt->bindParam(":tahunlahir_ayah", $tahunlahir_ayah);
-    $stmt->bindParam(":pendidikan_ayah", $pendidikan_ayah);
-    $stmt->bindParam(":pekerjaan_ayah", $pekerjaan_ayah);
-    $stmt->bindParam(":ibu", $ibu);
-    $stmt->bindParam(":tahunlahir_ibu", $tahunlahir_ibu);
-    $stmt->bindParam(":pendidikan_ibu", $pendidikan_ibu);
-    $stmt->bindParam(":pekerjaan_ibu", $pekerjaan_ibu);
-    $stmt->bindParam(":wali", $wali);
-    $stmt->bindParam(":tahunlahir_wali", $tahunlahir_wali);
-    $stmt->bindParam(":pendidikan_wali", $pendidikan_wali);
-    $stmt->bindParam(":pekerjaan_wali", $pekerjaan_wali);
-    $stmt->bindParam(":pernyataan", $pernyataan);
+    $stmt->bindParam("jenis_pendaftaran", $jenis_pendaftaran);
+    $stmt->bindParam("asal_sekolah", $asal_sekolah);
+    $stmt->bindParam("nama_lengkap", $nama_lengkap);
+    $stmt->bindParam("jenis_kelamin", $jenis_kelamin);
+    $stmt->bindParam("nik", $nik);
+    $stmt->bindParam("nomor_kk", $nomor_kk);
+    $stmt->bindParam("tempat_lahir", $tempat_lahir);
+    $stmt->bindParam("date", $date);
+    $stmt->bindParam("agama", $agama);
+    $stmt->bindParam("alamat_jalan", $alamat_jalan);
+    $stmt->bindParam("hp", $hp);
+    $stmt->bindParam("photo", $photo);
+    $stmt->bindParam("ayah", $ayah);
+    $stmt->bindParam("tahunlahir_ayah", $tahunlahir_ayah);
+    $stmt->bindParam("pendidikan_ayah", $pendidikan_ayah);
+    $stmt->bindParam("pekerjaan_ayah", $pekerjaan_ayah);
+    $stmt->bindParam("ibu", $ibu);
+    $stmt->bindParam("tahunlahir_ibu", $tahunlahir_ibu);
+    $stmt->bindParam("pendidikan_ibu", $pendidikan_ibu);
+    $stmt->bindParam("pekerjaan_ibu", $pekerjaan_ibu);
+    $stmt->bindParam("wali", $wali);
+    $stmt->bindParam("tahunlahir_wali", $tahunlahir_wali);
+    $stmt->bindParam("pendidikan_wali", $pendidikan_wali);
+    $stmt->bindParam("pekerjaan_wali", $pekerjaan_wali);
+    $stmt->bindParam("pernyataan", $pernyataan);
 
     $stmt->execute();
 
-    header("location:index.php");
+    // header("location:index.php");
 
 }
 
