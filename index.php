@@ -63,7 +63,6 @@
             </div>
           </div>
         </div>
-    
     </footer>
 
     <script src="assets/vendor/aos/aos.js"></script>

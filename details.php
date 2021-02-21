@@ -52,7 +52,7 @@ $row = $stmt->fetch();
 
     <main id="main">
 
-    <section class="breadcrumbs">
+<section class="breadcrumbs">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <h2>DATA FORMULIR PESERTA DIDIK BARU TAHUN 2021</h2>
@@ -84,7 +84,6 @@ $row = $stmt->fetch();
                     <input type="text" class="form-control" name="asal_sekolah" value="<?php echo $row['asal_sekolah']; ?>">
                 </div>
             </div>
-
             <p>
                 <h3>Data Pribadi</h3>
             </p>
@@ -141,7 +140,6 @@ $row = $stmt->fetch();
                 <div class="col-sm-9">
                     <input type="text" class="form-control" name="hp" value="<?php echo $row['hp']; ?>">
                 </div>
-
             <p>
                 <h3>Data Ayah Kandung</h3>
             </p>
@@ -169,7 +167,6 @@ $row = $stmt->fetch();
                     <input name="pekerjaan_ayah" type="text" class="form-control" value="<?php echo $row['pekerjaan_ayah']; ?>">
                 </div>
             </div>
-
             <p>
                 <h3>Data Ibu Kandung</h3>
             </p>
@@ -197,7 +194,6 @@ $row = $stmt->fetch();
                     <input name="pekerjaan_ibu" type="text" class="form-control" value="<?php echo $row['pekerjaan_ibu']; ?>">
                 </div>
             </div>
-
             <p>
                 <h3>Data Wali</h3>
             </p>
@@ -225,15 +221,11 @@ $row = $stmt->fetch();
                     <input name="pekerjaan_wali" type="text" class="form-control" value="<?php echo $row['pekerjaan_wali']; ?>">
                 </div>
             </div>
-
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <a href="index.php?page=view-data" type="button" class="btn btn-success">Kembali</a>
             </div>
-
         </form>
         <p></p>
-        
-
       </div>
 </section>
 
