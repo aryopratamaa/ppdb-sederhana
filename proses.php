@@ -29,33 +29,32 @@ if (isset($_POST['btn_simpan'])) {
     $pekerjaan_wali = $_POST['pekerjaan_wali'];
     $pernyataan = $_POST['pernyataan'];
 
-    $sql = "INSERT INTO tb_formulir VALUES
-    (NULL,
-    :jenis_pendaftaran,
-    :asal_sekolah,
-    :nama_lengkap,
-    :jenis_kelamin,
-    :nik,
-    :nomor_kk,
-    :tempat_lahir,
-    :date,
-    :agama,
-    :alamat_jalan,
-    :hp,
-    :photo,
-    :ayah,
-    :tahunlahir_ayah,
-    :pendidikan_ayah,
-    :pekerjaan_ayah,
-    :ibu,
-    :tahunlahir_ibu,
-    :pendidikan_ibu,
-    :pekerjaan_ibu,
-    :wali,
-    :tahunlahir_wali,
-    :pendidikan_wali,
-    :pekerjaan_wali,
-    :pernyataan)";
+    $sql = "INSERT INTO tb_formulir VALUES (
+        :jenis_pendaftaran,
+        :asal_sekolah,
+        :nama_lengkap,
+        :jenis_kelamin,
+        :nik,
+        :nomor_kk,
+        :tempat_lahir,
+        :date,
+        :agama,
+        :alamat_jalan,
+        :hp,
+        :photo,
+        :ayah,
+        :tahunlahir_ayah,
+        :pendidikan_ayah,
+        :pekerjaan_ayah,
+        :ibu,
+        :tahunlahir_ibu,
+        :pendidikan_ibu,
+        :pekerjaan_ibu,
+        :wali,
+        :tahunlahir_wali,
+        :pendidikan_wali,
+        :pekerjaan_wali,
+        :pernyataan)";
 
     $stmt = $koneksi->prepare($sql);
 
@@ -87,7 +86,7 @@ if (isset($_POST['btn_simpan'])) {
 
     $stmt->execute();
 
-    // header("location:index.php");
+    header("location:index.php?page=view-data");
 
 }
 
