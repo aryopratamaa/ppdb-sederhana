@@ -29,7 +29,7 @@ if (isset($_POST['btn_simpan'])) {
     $pekerjaan_wali = $_POST['pekerjaan_wali'];
     $pernyataan = $_POST['pernyataan'];
 
-    $sql = "INSERT INTO tb_formulir VALUES (NULL,
+    $sql = "INSERT INTO formulir VALUES (NULL,
     :jenis_pendaftaran,
     :asal_sekolah,
     :nama_lengkap,
@@ -58,7 +58,6 @@ if (isset($_POST['btn_simpan'])) {
 
     $stmt = $koneksi->prepare($sql);
 
-    $stmt = $koneksi->prepare($sql);
     $stmt->bindParam(":jenis_pendaftaran", $jenis_pendaftaran);
     $stmt->bindParam(":asal_sekolah", $asal_sekolah);
     $stmt->bindParam(":nama_lengkap", $nama_lengkap);
@@ -87,7 +86,7 @@ if (isset($_POST['btn_simpan'])) {
 
     $stmt->execute();
 
-    // header("location:index.php?page=info");
+    header("location:index.php");
 
 }
 

@@ -18,7 +18,7 @@
 
 <section class="inner-page pt-4">
       <div class="container">
-        <form action="proses.php">
+        <form action="proses.php" method="POST">
             <p>
                 <h3>Registrasi Peserta Didik</h3>
               </p>
@@ -27,8 +27,8 @@
                 <div class="col-sm-9">
                     <select name="jenis_pendaftaran" class="form-select">
                         <option selected>Pilih...</option>
-                        <option value="Siswa Baru">Siswa Baru</option>
-                        <option value="Pindahan">Pindahan</option>
+                        <option>Siswa Baru</option>
+                        <option>Pindahan</option>
                     </select>
                 </div>
             </div>
