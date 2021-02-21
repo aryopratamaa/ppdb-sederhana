@@ -3,7 +3,7 @@
         <h1>Selamat datang di Website SMKN1AP</h1>
         <h2>Kami Menyambut baik peluncuran Website SMK Negeri 1 Air Putih yang baru &amp; dengan...</h2>
         <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
-        <a href="#get-started" class="btn-get-started scrollto">Daftar</a>
+        <a href="index.php?page=register" class="btn-get-started">Daftar</a>
     </div>
 </div>
     

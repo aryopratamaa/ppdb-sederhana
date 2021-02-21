@@ -1,11 +1,70 @@
-<section class="breadcrumbs">
+<?php
+include "koneksi.php";
+
+$id = $_GET['id'];   
+$sql = "SELECT * FROM tb_register WHERE id = :id";
+$stmt = $koneksi->prepare($sql);
+$stmt->bindParam(":id", $id);
+$stmt->execute();
+$row = $stmt->fetch();
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN 1 AIR PUTIH</title>
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/touch-icon.png" rel="touch-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet"/>
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div id="logo">
+          <h1>
+            <a href="index.php"><span>SMKN1</span> AP</a>
+          </h1>
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link" href="index.php">Home</a></li>
+            <li><a class="nav-link" href="index.php?page=prestasi">Prestasi</a></li>
+            <li><a class="nav-link" href="index.php?page=about">Tentang</a></li>
+            <li><a class="nav-link" href="index.php?page=jurusan">Jurusan</a></li>
+            <li><a class="nav-link" href="index.php?page=galeri">Galeri</a></li>
+            <li><a class="nav-link" href="index.php?page=guru">Guru</a></li>
+            <li><a class="nav-link btn-daftar" href="index.php?page=register">Daftar</a></li> 
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <p></p>
+
+    <main id="main">
+
+    <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>FORMULIR PENERIMAAN PESERTA DIDIK BARU TAHUN 2021</h2>
+          <h2>UPDATE FORMULIR PENERIMAAN PESERTA DIDIK BARU TAHUN 2021</h2>
           <ol>
             <li><a href="index.php">Home</a></li>
-            <li>Pendaftaran</li>
+            <li><a href="index.php?page=register">Pendaftaran</a></li>
+            <li>Edit Data</li>
           </ol>
         </div>
       </div>
@@ -14,6 +73,7 @@
 <section class="inner-page pt-4">
       <div class="container">
         <form action="proses.php" method="POST">
+            <input type="hidden" name="id_pendaftaran" value="<?php echo $id; ?>">
             <p>
                 <h3>Registrasi Peserta Didik</h3>
               </p>
@@ -287,9 +347,8 @@
             </div>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <input type="submit" class="btn btn-primary" name="btn_simpan" value="simpan"></input>
+                <input type="submit" class="btn btn-primary" name="btn_update" value="update"></input>
                 <button type="reset" class="btn btn-secondary">Reset</button>
-                <a href="index.php?page=view-data" type="button" class="btn btn-success">Data Peserta</a>
             </div>
 
         </form>
@@ -299,8 +358,28 @@
       </div>
 </section>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    </main>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <footer class="footer">
+        <div class="copyrights">
+          <div class="container">
+            <p>&copy; Copyrights 2021. All rights reserved.</p>
+            <div class="credits">
+              Designed by <a href="https://github.com/aryopratamaa">Aryo Pratama</a>
+            </div>
+          </div>
+        </div>
     
+    </footer>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+
+
