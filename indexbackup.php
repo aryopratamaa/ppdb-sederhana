@@ -53,7 +53,7 @@
 
     <main id="main">
 
-        <section id="prestasi" class="padd-section text-center">
+          <section id="prestasi" class="padd-section text-center">
             <div class="container" data-aos="fade-up">
               <div class="section-title text-center">
                 <h2>Prestasi SMK Negeri 1 Air Putih</h2>

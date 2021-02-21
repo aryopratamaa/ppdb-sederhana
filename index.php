@@ -28,18 +28,19 @@
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#prestasi">Prestasi</a></li>
-            <li><a class="nav-link scrollto" href="#about-us">Tentang</a></li>
-            <li><a class="nav-link scrollto" href="#jurusan">Jurusan</a></li>
-            <li><a class="nav-link scrollto" href="#galeri">Galeri</a></li>
-            <li><a class="nav-link scrollto" href="#guru">Guru</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link" href="index.php">Home</a></li>
+            <li><a class="nav-link" href="index.php?page=prestasi">Prestasi</a></li>
+            <li><a class="nav-link" href="index.php?page=about">Tentang</a></li>
+            <li><a class="nav-link" href="index.php?page=jurusan">Jurusan</a></li>
+            <li><a class="nav-link" href="index.php?page=galeri">Galeri</a></li>
+            <li><a class="nav-link" href="index.php?page=guru">Guru</a></li>
+            <li><a class="nav-link btn-daftar" href="index.php?page=register">Daftar</a></li> 
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>
+    <p></p>
 
     <main id="main">
 
@@ -64,6 +65,12 @@
         </div>
     
     </footer>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
